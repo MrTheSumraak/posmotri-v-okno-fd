@@ -186,7 +186,7 @@ input[type="checkbox"]:checked + span {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: 'Oswald', Arial, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
@@ -198,7 +198,7 @@ input[type="checkbox"]:checked + span {
 }
 
 .content__list {
-  width: 399px;
+  width: 395px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -208,7 +208,6 @@ input[type="checkbox"]:checked + span {
   height: 295px;
   margin-top: 26px;
   overflow-y: auto;
-  overflow-x: hidden;
   position: relative;
 }
 
